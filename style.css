@@ -1,0 +1,40 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width:100%;
+  height:100%;
+
+} 
+body {
+  background-color: black;
+}
+
+.video-position
+{
+  position:relative;
+  width:100%;
+  height:100%;
+  margin:auto;
+}
+
+#myVid {
+  position: absolute;
+ /* top: 5%;*/
+/*  left: 1%;*/
+  width:100%;
+  height:100%;
+}
+
+.play-position {
+ position: absolute;
+ top: 70%;
+ left: 30%;
+
+}
+
+.instruct-position {
+position: absolute;
+top: 70%;
+right: 30%;
+
+}

@@ -1,0 +1,46 @@
+
+<!DOCTYPE html> 
+
+<html> 
+  <head>
+    <title>Marine Ninja</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script>
+      setTimeout(show, 120);
+      function show()
+{
+  document.getElementById('play').style.visibility='visible';
+  document.getElementById('instruct').style.visibility='visible';
+
+}
+    </script> 
+  </head>
+<body> 
+ 
+        
+<div class="video-position"> 
+<video id="myVid"  preload="auto"  autoplay>
+ <source src="a.mp4" type="video/webm" >
+</video>
+<div class="play-position">
+  <a id="play" href='Marine-Ninja-Play/'>
+    <img src="PlayButton.png"  style="width: 320px;height: 320px;"> </a>
+  </div>
+  
+  <div class="instruct-position">
+  <a id="instruct" href="Marine-Ninja-Instructions/"> 
+      <img src="InstructionsButton.png"  style="height:235px;"> </a>
+    </div>
+  
+</div>
+
+
+
+<script> 
+document.getElementById("play").style.visibility = "hidden";
+document.getElementById("instruct").style.visibility = "hidden";
+
+
+</script> 
+</body> 
+</html>

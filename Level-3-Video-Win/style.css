@@ -1,0 +1,13 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: black;
+  }
+
+  .video-position {
+    position: relative;
+    top: 10%;
+    /* left: -1%; */
+  }
